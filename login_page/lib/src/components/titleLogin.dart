@@ -13,7 +13,10 @@ class TitleLogin extends StatelessWidget {
         Container(
           child: const Text(
             'Hello Again!',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Montserrat'),
           ),
         ),
         const SizedBox(
@@ -21,9 +24,9 @@ class TitleLogin extends StatelessWidget {
         ),
         Container(
           child: const Text(
-            'Wellcome back you ve \n been missed!',
+            'Wellcome back your been missed!',
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 18),
+            style: TextStyle(fontSize: 18, fontFamily: 'Montserrat'),
           ),
         ),
       ],
